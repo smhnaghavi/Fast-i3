@@ -44,3 +44,5 @@ Now, logout and login to your system again.
 
 ![Image 1](https://github.com/smhnaghavi/Fast-i3/blob/main/i3-1.png)
 ![Image 2](https://github.com/smhnaghavi/Fast-i3/blob/main/i3-2.png)
+
+If you have any problems in using, send it as an issue to check it.
