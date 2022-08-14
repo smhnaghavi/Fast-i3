@@ -12,7 +12,7 @@ Let's start together!
 # Installing packages and dependencies
 
 ```bash
-sudo pacman -S i3-gaps i3status-rust i3status feh network-manager-applet rofi dmenu vazir-code-fonts font-awesome-5 picom ranger mplayer moc
+sudo pacman -S i3-gaps i3status-rust i3status feh network-manager-applet rofi dmenu vazir-code-fonts font-awesome-5 picom ranger mplayer moc lxappearance
 ```
 Now logout from your desktop environment and in the login page choose i3 as your desktop session.
 
