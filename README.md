@@ -14,10 +14,12 @@ Let's start together!
 ```bash
 sudo pacman -S i3-gaps i3status-rust i3status feh network-manager-applet 
 ```
+Now logout from your desktop environment and in the login page choose i3 as your desktop session.
+
+![Login Page](https://github.com/smhnaghavi/Fast-i3/blob/main/sddm.png)
 
 # Download and clone the configuration files
 
 ```bash
 git clone https://github.com/smhnaghavi/Fast-i3.git
 ```
-
