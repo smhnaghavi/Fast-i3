@@ -12,7 +12,7 @@ Let's start together!
 # Installing packages and dependencies
 
 ```bash
-sudo pacman -S i3-gaps i3status-rust i3status feh network-manager-applet rofi dmenu vazir-code-fonts
+sudo pacman -S i3-gaps i3status-rust i3status feh network-manager-applet rofi dmenu vazir-code-fonts font-awesome-5 picom ranger mplayer moc
 ```
 Now logout from your desktop environment and in the login page choose i3 as your desktop session.
 
@@ -36,3 +36,11 @@ cp .i3startup ~/.i3startup
 mkdir ~/wallpapers
 cp Colors.png ~/walpapers/Colors.png
 ```
+### Don't forget to change the pathes in config files to yours, like: /home/hadi/ => /home/{YourUsername}
+
+Now, logout and login to your system again.
+
+# ScreenShots
+
+![Image 1](https://github.com/smhnaghavi/Fast-i3/blob/main/i3-1.png)
+![Image 2](https://github.com/smhnaghavi/Fast-i3/blob/main/i3-2.png)
