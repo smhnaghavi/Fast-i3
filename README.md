@@ -12,7 +12,7 @@ Let's start together!
 # Installing packages and dependencies
 
 ```bash
-sudo pacman -S i3-gaps i3status-rust i3status feh network-manager-applet 
+sudo pacman -S i3-gaps i3status-rust i3status feh network-manager-applet rofi dmenu vazir-code-fonts
 ```
 Now logout from your desktop environment and in the login page choose i3 as your desktop session.
 
@@ -20,6 +20,19 @@ Now logout from your desktop environment and in the login page choose i3 as your
 
 # Download and clone the configuration files
 
+Open a terminal using Meta+Enter and this command.
+
 ```bash
-git clone https://github.com/smhnaghavi/Fast-i3.git
+git clone https://github.com/smhnaghavi/Fast-i3.git && cd Fast-i3
+```
+
+# Copy the configurations and files to the locations
+
+```bash
+cp config ~/.config/i3/config
+cp i3status-rs ~/.config/i3/i3status-rs
+cp i3status_config.toml ~/.config/i3/i3status_config.toml
+cp .i3startup ~/.i3startup
+mkdir ~/wallpapers
+cp Colors.png ~/walpapers/Colors.png
 ```
