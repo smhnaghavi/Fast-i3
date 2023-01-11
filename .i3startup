@@ -1,0 +1,5 @@
+#!/bin/bash
+~/.config/polybar/launch.sh --forest
+feh --no-fehbg --bg-scale './Colors.png'
+conky -c ~/.conky/Gotham/Gotham
+
