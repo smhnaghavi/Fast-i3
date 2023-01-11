@@ -1,48 +1,23 @@
 # Fast-i3
-A theme and config for start using i3wm faster.
+A theme and config to start using i3wm faster.
 
-### Welcome to Fast-i3 repo.
+### Welcome to Fast-i3!
 
-Fast-i3 is a i3wm configurations that them make your i3 prettier and help you start using i3wm faster.
+Fast-i3 is a i3wm script that helps you to make more beautiful i3wm and start using i3 faster.
 
-The theme and config file can use on all linux distrobutions, but the usage method given blow is specific for Arch-Based Linux Distros; like: Arch, Manjaro, Garuda, etc.
+The script supports openSUSE, Manjaro, Arch and Ubuntu for now, but we will add another linux distribution support in the future.
 
-Let's start together!
+Now Let's start using script together!
 
-# Installing packages and dependencies
+# Installing 
 
-```bash
-sudo pacman -S i3-gaps i3status-rust i3status feh network-manager-applet rofi dmenu vazir-code-fonts font-awesome-5 picom ranger mplayer moc lxappearance
-```
-Now logout from your desktop environment and in the login page choose i3 as your desktop session.
-
-![Login Page](https://github.com/smhnaghavi/Fast-i3/blob/main/sddm.png)
-
-# Download and clone the configuration files
-
-Open a terminal using Meta+Enter and this command.
+Run the following command to clone the project files and run installation script.
 
 ```bash
-git clone https://github.com/smhnaghavi/Fast-i3.git && cd Fast-i3
+git clone https://github.com/smhnaghavi/Fast-i3.git && cd Fast-i3 && ./install.sh
 ```
+Now installation finished, and you can logout and login again into the i3.
 
-# Copy the configurations and files to the locations
-
-```bash
-cp config ~/.config/i3/config
-cp i3status-rs ~/.config/i3/i3status-rs
-cp i3status_config.toml ~/.config/i3/i3status_config.toml
-cp .i3startup ~/.i3startup
-mkdir ~/wallpapers
-cp Colors.png ~/walpapers/Colors.png
-```
-### Don't forget to change the pathes in config files to yours, like: /home/hadi/ => /home/{YourUsername}
-
-Now, logout and login to your system again.
+If you get an error while running installation script, you can report it as an issue.
 
 # ScreenShots
-
-![Image 1](https://github.com/smhnaghavi/Fast-i3/blob/main/i3-1.png)
-![Image 2](https://github.com/smhnaghavi/Fast-i3/blob/main/i3-2.png)
-
-If you have any problems in using, send it as an issue to check it.
